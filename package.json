@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "target_plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "lerna": "^6.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "lerna publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
